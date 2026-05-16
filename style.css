@@ -1,0 +1,123 @@
+body {
+    background-color: #45007A;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    background-color: #826CE6;
+    padding: 10px;
+    margin: 20px;
+    font-style: italic;
+}
+
+/* Navbar */
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+}
+
+.navbar li {
+    background-color: #ccc;
+    padding: 8px 15px;
+    border: 2px solid black;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Main layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+/* Left side */
+.left {
+    width: 50%;
+}
+
+.left img {
+    width: 300px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Right side */
+.right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button */
+.btn {
+    background-color: #ccc;
+    padding: 15px 25px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #aaa;
+}
+/* Earphones base */
+.earphones {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* Mood colors */
+.neutral { background-color: gray; }
+.happy { background-color: yellow; }
+.sad { background-color: blue; }
+.stressed { background-color: red; }
+/* Glow effect */
+.earphones {
+    box-shadow: 0 0 10px white;
+}
+
+/* Different glow colors */
+.happy { 
+    background-color: yellow; 
+    box-shadow: 0 0 15px yellow;
+}
+
+.sad { 
+    background-color: blue; 
+    box-shadow: 0 0 15px blue;
+}
+
+.stressed { 
+    background-color: red; 
+    box-shadow: 0 0 15px red;
+}
+
+.neutral { 
+    background-color: gray; 
+    box-shadow: 0 0 10px gray;
+}
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
